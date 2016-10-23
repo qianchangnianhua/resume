@@ -1,0 +1,212 @@
+@font-face {font-family: 'iconfont';
+    src: url('../fonts/iconfont.eot'); /* IE9*/
+    src: url('../fonts/iconfont.eot?#iefix') format('embedded-opentype'), /* IE6-IE8 */
+    url('../fonts/iconfont.woff') format('woff'), /* chrome、firefox */
+    url('../fonts/iconfont.ttf') format('truetype'), /* chrome、firefox、opera、Safari, Android, iOS 4.2+*/
+    url('../fonts/iconfont.svg#iconfont') format('svg'); /* iOS 4.1- */
+}
+.iconfont{
+    font-family:"iconfont" !important;
+    font-size:0.5rem;font-style:normal;
+    -webkit-font-smoothing: antialiased;
+    -webkit-text-stroke-width: 0.2px;
+    -moz-osx-font-smoothing: grayscale;
+}
+body,html,i,span,p{
+	margin: 0;
+	padding: 0;
+}
+html{
+	font-size: 50px;
+}
+body{
+	font-family: "黑体";
+}
+body,html{
+	width: 100%;
+	height: 100%;
+	position: relative;
+	overflow: hidden;
+}
+
+
+.music-btn{
+	width: 44px;
+	height: 44px;
+	background: url(../images/music.png);
+	position: fixed;
+	right: 10px;
+	top: 10px;
+	transform:rotate(0deg);
+	-webkit-transform:rotate(0deg);
+	z-index: 100;
+}
+
+.arrow{
+	width: 20%;
+	position: fixed;
+	bottom: 6px;
+	left: 40%;
+	z-index: 100;
+}
+
+
+
+.swiper-container{
+	width: 100%;
+	height: 100%;
+	overflow: hidden;
+}
+.swiper-slide{
+	width: 100%;
+	height: 100%;
+}
+
+/*第一屏*/
+.page1{
+	background: url(../images/page1-bg.jpg);
+}
+.page1 img{
+	margin-top: 1rem;
+}
+
+/*第二屏*/
+.page2{
+	background: url(../images/277H_02.jpg);
+}
+.page2 img{
+	width: 2.5rem;
+	display: block;
+	border-radius: 3rem;
+	margin: 1.5rem auto;
+}
+.page2 p{
+	padding: 0.3rem;
+	color: #808080;
+	border-bottom: 2px solid #808080;
+}
+
+/*第三屏*/
+.page3{
+	background: url(../images/4_2_02.jpg);
+	position: relative;
+}
+.page3-1{
+	color: #646363;
+	font-size: 0.6rem;
+	padding: 0.3rem;
+	border-bottom: 1px solid #646363;
+}
+.page3-2{
+	width: 1rem;
+	height: 1rem;
+	border-radius: 1rem;
+	background-color: #707f95;
+	color: #fff;
+	font-size: 0.5rem;
+	text-align: center;
+	line-height: 1rem;
+	position: absolute;
+	top: 2rem;
+	left: 2rem;
+}
+.page3-3{
+	width: 1.5rem;
+	height: 1.5rem;
+	border-radius: 1rem;
+	background-color: #707f95;
+	color: #fff;
+	font-size: 0.6rem;
+	text-align: center;
+	line-height: 1.5rem;
+	position: absolute;
+	top: 3.5rem;
+	left: 1rem;
+}
+.page3-4{
+    width: 1.2rem;
+    height: 1.2rem;
+    border-radius: 1rem;
+    background-color: #707f95;
+    color: #fff;
+    font-size: 0.4rem;
+    text-align: center;
+    line-height: 1.2rem;
+    position: absolute;
+    top: 3rem;
+    left: 4rem;
+}
+.page3-5{
+	width: 1.3rem;
+    height: 1.3rem;
+    border-radius: 1rem;
+    background-color: #707f95;
+    color: #fff;
+    font-size: 0.5rem;
+    text-align: center;
+    line-height: 1.3rem;
+    position: absolute;
+    top: 5rem;
+    left: 2rem;
+}
+.page3-6{
+    width: 2rem;
+    height: 2rem;
+    border-radius: 1rem;
+    background-color: #707f95;
+    color: #fff;
+    font-size: 0.5rem;
+    text-align: center;
+    line-height: 2rem;
+    position: absolute;
+    top: 6.6rem;
+    left: 2.5rem;
+}
+
+/*第四屏*/
+.page4{
+	background: url(../images/292H_01.jpg);
+}
+.p1{
+	color: #999;
+	width: 4.8rem;
+	font-size: 1.2rem;
+	margin-left: 0.5rem;
+	background-color: #fff;
+	margin-top: 0.6rem;
+}
+.p2,.p3{
+	width: 1rem;
+	color: #0f6292;
+	text-shadow:0 0 0.06rem #0f6292;
+	float: left;
+	margin-left: 0.8rem;
+	margin-top: 1rem;
+}
+
+/*第五屏*/
+.page5{
+	background: url(../images/181H_02.jpg);
+}
+.page5 p{
+	color: #b8b8b8;
+	font-size: 0.5rem;
+	margin: 1rem;
+}
+.page5 img{
+	display: block;
+	width: 3.5rem;
+	margin: 1rem auto;
+}
+.page5 i{
+	color: #484246;
+	margin-left: 0.4rem;
+	display: block;
+	float: left;
+}
+.page5 span{
+	color: #484246;
+	font-size: 0.5rem;
+	display: block;
+	float: left;
+}

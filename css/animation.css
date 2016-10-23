@@ -1,0 +1,114 @@
+/*音乐图标动画帧*/
+@keyframes music{
+	0%{transform:rotate(0deg);}
+
+	100%{transform:rotate(360deg);}
+}
+
+/*兼容webkit内核的浏览器*/
+@-webkit-keyframes music{
+	0%{transform:rotate(0deg);}
+
+	100%{transform:rotate(360deg);}
+}
+
+/*底部箭头动画帧*/
+@keyframes arrow{
+	0%{opacity: 0;
+		transform:translateY(0);}
+
+	50%{opacity: 1;
+		transform:translateY(-20px);}
+
+	100%{opacity: 0;
+		transform:translateY(-40px);}
+}
+	
+@-webkit-keyframes arrow{
+	0%{opacity: 0;
+		-webkit-transform:translateY(0);}
+
+	50%{opacity: 1;
+		-webkit-transform:translateY(-20px);}
+
+	100%{opacity: 0;
+		-webkit-transform:translateY(-40px);}
+}
+
+/*公共类*/
+.animated{animation-duration:1.5s;
+		animation-timing-function:linear;}
+
+.infinite{animation-iteration-count:infinite;}
+
+/*动画调用类*/
+.music-animate{animation-name:music;}
+
+.arrow-animate{animation-name:arrow;}
+
+
+
+/*page1 头像  从上淡入*/
+@keyframes touXiang{
+	0%{opacity: 0;
+		transform:translateY(-100%);}
+
+	60%{opacity: 0.5;
+		transform:translateY(20%);}
+
+	100%{opacity: 1;
+		transform:translateY(0);}
+}
+
+.touXiang{animation-name:touXiang;
+			animation-duration:0.6s;}
+
+
+/*page1 信息  从下滑上*/
+@keyframes fadeInBottom{
+	0%{transform:translateX(-200%);}
+
+	100%{transform:translateX(0);}
+}
+
+.fadeInBottom{animation-name:fadeInBottom;
+			animation-duration:0.6s;}
+
+/*信息 动画延迟*/
+.delay-time1{animation-delay:0.3s;}
+.delay-time2{animation-delay:0.6s;}
+.delay-time3{animation-delay:0.9s;}
+.delay-time4{animation-delay:1.2s;}
+.delay-time5{animation-delay:1.5s;}
+.delay-time6{animation-delay:1.8s;}
+
+
+
+/*page2*/
+@keyframes fadeInLeft{
+	0%{transform:translateX(-100%);}
+	
+	50%{transform:translateX(20%);}
+
+	70%{transform:translateX(0);}
+
+	80%{transform:translateX(10%);}
+
+	100%{transform:translateX(0);}
+}
+
+.fadeInLeft{animation-name:fadeInLeft;
+			animation-duration:0.6s;}
+
+@keyframes fadeInRight{
+	0%{transform:translateX(150%);}
+
+	60%{transform:translateX(0);}
+
+	80%{transform:translateX(20%);}
+
+	100%{transform:translateX(0);}
+}
+
+.fadeInRight{animation-name:fadeInRight;
+			animation-duration:0.6s;}
